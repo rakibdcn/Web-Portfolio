@@ -6,6 +6,23 @@ h1{
     font-size: 50px;
 }
 
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
 .name-highlight{
-    color: rgb(20, 190, 176);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
 }
