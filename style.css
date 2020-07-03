@@ -1,9 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1{
     font-size: 50px;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, cyan, blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.button:hover {
+    color: lightgreen;
+  }
+
+.top-banner{
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .half-width{
@@ -13,16 +33,57 @@ h1{
     padding-left: 2%;
 }
 
+.dream-area{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
 .half-width img{
     width: 100%;
 }
 
-.name-highlight{
+.box-area{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+    
+}
+
+#full-stack{
+ border-left: 7px solid;
+ border-image: linear-gradient(180deg, lightSalmon, tomato);
+ border-image-slice: 1;
+}
+
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.experiance-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.text-highlight{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font: {
-		size: 20vw;
+        size: 20vw;
+    }
+}
+
+footer p{
+    text-align: center;
 }
